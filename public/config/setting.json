@@ -1,0 +1,46 @@
+{
+  "aside": {
+    "title": "后台管理系统",
+    "item": {
+      "overview": "首页概览",
+      "access": "门禁管理",
+      "entry": "出入管理",
+      "settings": "系统设置"
+    }
+  },
+  "main": {
+    "header": {
+      "title": "门禁管理",
+      "addPerson": "新增人员"
+    },
+    "form": {
+      "id": "ID",
+      "company": "所属公司",
+      "personnelName": "人员姓名",
+      "personnelType": {
+        "title": "人员类型",
+        "HUMAN_OUTSOURCING": { "label": "人力外包", "color": "success" },
+        "PROJECT_OUTSOURCING": { "label": "项目外包", "color": "warning" },
+        "SPECIAL_OUTSOURCING": { "label": "特殊外包", "color": "danger" }
+      },
+      "workMode": {
+        "title": "办公模式",
+        "ONSITE": { "label": "驻场", "color": "success" },
+        "REMOTE": { "label": "远程", "color": "warning" }
+      },
+      "bankLiaison": "行方负责人",
+      "accessCardNumber": "门禁卡号",
+      "accessCardStatus": "门禁状态",
+      "employeeBadgeNumber": "工牌卡号",
+      "employeeBadgeStatus": "工牌状态",
+      "entryRegistrationTime": "入场时间",
+      "exitRegistrationTime": "离场时间",
+      "remarks": "备注",
+      "operate": {
+        "title":"操作",
+        "edit": "编辑",
+        "delete": "删除"
+      }
+    }
+  }
+}

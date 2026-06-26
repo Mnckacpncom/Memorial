@@ -4,11 +4,11 @@ const router = new VueRouter({
     routes: [
         {
             path: '/',
-            component: () => import('@/components/PageLogin.vue')
+            component: () => import('@/views/login/PageLogin.vue')
         },
         {
             path: '/home',
-            component: () => import('@/components/PageHome.vue')
+            component: () => import('@/views/home/PageHome.vue')
         }
     ]
 })
